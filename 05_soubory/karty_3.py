@@ -4,7 +4,7 @@
 import random
 from pprint import pprint
 
-soubor = open("04_lekce/karty3.txt", "r", encoding="utf-8")
+soubor = open("kodim.cz/05_soubory/karty3.txt", "r", encoding="utf-8")
 
 deck = [card for card in soubor]
 #print("zaprasene {}".format(deck))

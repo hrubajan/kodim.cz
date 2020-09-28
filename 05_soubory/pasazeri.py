@@ -1,6 +1,6 @@
 # reseni Petr
 
-vstup = open("04_lekce/pasazeri.txt", encoding="utf-8")
+vstup = open("kodim.cz/05_soubory/pasazeri.txt", encoding="utf-8")
 # odstraneni mezer
 dny = [radek.strip().split(" ") for radek in vstup]
 vstup.close()
@@ -15,7 +15,7 @@ print("Smerem zpet jelo {} pasazeru".format(zpet) )
 
 # moje delsi reseni
 """
-vstup = open("04_lekce/pasazeri.txt", encoding="utf-8")
+vstup = open("kodim.cz/05_soubory/pasazeri.txt", encoding="utf-8")
 dny = [radek.strip().split(" ") for radek in vstup]
 vstup.close()
 #print(dny)

@@ -1,7 +1,7 @@
 # HINT u textaku si zkontrolovat prazdne radky na konci, dela to neplechu 
 
 # a]
-soubor = open("04_lekce/slohovka.txt", encoding="utf-8")
+soubor = open("kodim.cz/05_soubory/slohovka.txt", encoding="utf-8")
 
 # b] => nejdriv ocistit strip (mezery pred a za) pak split (rozdelit podle mezer mezi slovami)
 seznam_slov = [slovo.strip().split(" ") for slovo in soubor]
