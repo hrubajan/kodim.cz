@@ -2,7 +2,7 @@
 import sys
 import statistics
 
-soubor = open("04_lekce/vykaz_vyplata.txt", encoding="utf-8")
+soubor = open("kodim.cz/05_soubory/vykaz_vyplata.txt", encoding="utf-8")
 vykaz = [int(radka.strip()) for radka in soubor]
 #print(vykaz)
 
@@ -18,7 +18,7 @@ print("Prumerna mesicni vyplata je: " + "{:,}".format(prumer_mesic).replace(",",
 # ULOHA 5
 """
 import sys
-vstup = open("04_lekce/vykaz_vyplata.txt", encoding="utf-8")
+vstup = open("kodim.cz/05_soubory/vykaz_vyplata.txt", encoding="utf-8")
 vykaz = [int(radka.strip()) for radka in vstup]
 sazba = int(sys.argv[1])
 
@@ -26,7 +26,7 @@ vyplata_mesic = [ "{:,} Kc".format(mesic * sazba).replace(","," ") for mesic in 
 print(vyplata_mesic)
 vstup.close()
 
-vystup = open("04_lekce/vykaz_vyplata_nove.txt", "w", encoding="utf-8")
+vystup = open("kodim.cz/05_soubory/vykaz_vyplata_nove.txt", "w", encoding="utf-8")
 [vystup.write(castka + "\n") for castka in vyplata_mesic]
 vystup.close()
 """

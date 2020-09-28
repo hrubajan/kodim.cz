@@ -1,6 +1,6 @@
 # a]
 
-soubor = open("04_lekce/auta.txt", encoding="utf-8")
+soubor = open("kodim.cz/05_soubory/auta.txt", encoding="utf-8")
 
 kilometry = [radek.strip().replace(",",".") for radek in soubor]
 #print(kilometry)

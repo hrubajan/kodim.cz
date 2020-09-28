@@ -2,7 +2,7 @@
 pocty_dni = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31] 
 mesice = ["jan", "feb", "mar","apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
 
-vystup = open("04_lekce/kalendar.txt",mode="w", encoding="utf-8")
+vystup = open("kodim.cz/05_soubory/kalendar.txt",mode="w", encoding="utf-8")
 vystup.write("Mesic\tPocet dni\n")
 
 [vystup.write(mesice[i] + "\t" + str(pocty_dni[i]) + "\n") for i in range(12)]

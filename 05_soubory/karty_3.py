@@ -1,7 +1,7 @@
 # random.shuffle --> zamicha seznam, uz nemusim resit duplikaty (u random.choice bych resit musela, postup reseni nize)
 
 # Petr hezke reseni
-""" import random
+import random
 from pprint import pprint
 
 soubor = open("04_lekce/karty3.txt", "r", encoding="utf-8")
@@ -26,9 +26,9 @@ nahrazeni = [int( card[0].replace("kluk","10").replace("dáma","10").replace("kr
 pprint(f"nahrazeni: {nahrazeni}")
 
 soucet = sum(nahrazeni)
-pprint(f"soucet: {soucet}") """
+pprint(f"soucet: {soucet}")
  
-# vybirani 4 karet postupne pomoci choice a pak tu vybranou kartu pomoci delete smazat ze seznamu
+""" # vybirani 4 karet postupne pomoci choice a pak tu vybranou kartu pomoci delete smazat ze seznamu
 import random
 
 x = ["kral", "eso", "dama"]
@@ -38,4 +38,4 @@ print(prvek1)
 index_prvek1 = x.index(prvek1)
 del x[index_prvek1]
 
-print(x)
+print(x) """
