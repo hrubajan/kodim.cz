@@ -21,6 +21,8 @@ print(f'Seznam obsahuje {len(seznam)} lidi')
 # b) Zjistěte jaké všechny informace máme o jednotlivých osobách
 print('O osobach vime:', [info for info in seznam[0]])
 
+print('O osobach vime:', seznam[0].keys())
+
 # c) Zjistěte, kolik je v souboru mužů a žen
 gender = [gender['gender'] for gender in seznam]
 male = gender.count('Male')
