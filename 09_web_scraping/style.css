@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box:
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background-color: #eee;
+  margin: 0 1rem;
+}
+
+h1, h2 {
+  font-weight: 800;
+  color: navy;
+}
+
+p, li {
+  line-height: 150%;
+  color: #555;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 4rem;
+}
+
+.intro p {
+  font-style: italic;
+}
+
+.intro img {
+  width: 100%;
+  height: auto;
+}
