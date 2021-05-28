@@ -1,5 +1,5 @@
 # kodim.cz
-vypracovane ulohy z [kodim.cz](https://kodim.cz/czechitas/python-data) pro Czechitas DA: Data
+vypracovane ulohy z [kodim.cz](https://kodim.cz/czechitas/python-data) pro výuku v Czechitas DA: Data
 
 **!!!
 DŮLEŽITÉ : Úlohy mají většinou více řešení / cest k řešení, tedy neberte toto jako jedinou volbu...
